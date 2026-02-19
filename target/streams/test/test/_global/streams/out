@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(taskmanager.service.TaskServiceSpec, zio.test.sbt.ZioSpecFingerprint$@78fb4e1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mCompleted tests[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	taskmanager.service.TaskServiceSpec[0m

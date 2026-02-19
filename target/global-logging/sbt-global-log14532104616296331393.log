@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (Eclipse Adoptium Java 17.0.18)
+[debug] Load.defaultLoad until apply took 66.505039ms
+[debug]           Load.loadUnit: plugins took 41.116503ms
+[debug]           Load.loadUnit: defsScala took 0.197931ms
+[debug] [Loading] Scanning directory /home/wammero/Desktop/zio-task-manager/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/wammero/Desktop/zio-task-manager/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 11.572012 ms
+[debug]               Load.resolveProject(zio-task-manager-build) took 28.505286ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id zio-task-manager-build, base: /home/wammero/Desktop/zio-task-manager/project, plugins: List(<none>))) took 53.384002ms
+[debug] [Loading] Done in /home/wammero/Desktop/zio-task-manager/project, returning: (zio-task-manager-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 68.21949ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.259257ms
+[debug]         Load.loadUnit(file:/home/wammero/Desktop/zio-task-manager/project/, ...) took 114.978541ms
+[debug]       Load.apply: load took 227.644678ms
+[debug]       Load.apply: resolveProjects took 4.662775ms
+[debug]       Load.apply: finalTransforms took 44.970762ms
+[debug]       Load.apply: config.delegates took 5.624418ms
+[debug]       Load.apply: Def.make(settings)... took 221.52836ms
+[debug]       Load.apply: structureIndex took 60.148887ms
+[debug]       Load.apply: mkStreams took 1.284071ms
+[info] loading project definition from /home/wammero/Desktop/zio-task-manager/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1082.931962ms
+[debug]     Load.loadUnit: defsScala took 0.018137ms
+[debug] [Loading] Scanning directory /home/wammero/Desktop/zio-task-manager
+[debug]       Load.loadUnit: mkEval took 2.835212ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/wammero/Desktop/zio-task-manager, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.803275 ms
+[info] loading settings for project zio-task-manager from build.sbt ...
+[debug]         Load.resolveProject(zio-task-manager) took 1.775042ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id zio-task-manager, base: /home/wammero/Desktop/zio-task-manager, plugins: List(<none>))) took 3.932536ms
+[debug] [Loading] Done in /home/wammero/Desktop/zio-task-manager, returning: (zio-task-manager)
+[debug]     Load.loadUnit: loadedProjectsRaw took 83.253895ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.611692ms
+[debug]   Load.loadUnit(file:/home/wammero/Desktop/zio-task-manager/, ...) took 1171.194158ms
+[debug] Load.apply: load took 1184.672743ms
+[debug] Load.apply: resolveProjects took 0.119984ms
+[debug] Load.apply: finalTransforms took 5.949187ms
+[debug] Load.apply: config.delegates took 0.351297ms
+[debug] Load.apply: Def.make(settings)... took 85.567783ms
+[debug] Load.apply: structureIndex took 17.516597ms
+[debug] Load.apply: mkStreams took 0.002302ms
+[info] set current project to zio-task-manager (in build file:/home/wammero/Desktop/zio-task-manager/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

@@ -1,0 +1,93 @@
+{
+  "results": [
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/getById — returns TaskNotFound for missing ID",
+       "status" : "Success",
+       "durationMillis" : "103",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "getById — returns TaskNotFound for missing ID"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/getById — returns existing task",
+       "status" : "Success",
+       "durationMillis" : "105",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "getById — returns existing task"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/create — fails with empty title",
+       "status" : "Success",
+       "durationMillis" : "105",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "create — fails with empty title"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/create — creates task with valid data",
+       "status" : "Success",
+       "durationMillis" : "104",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "create — creates task with valid data"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/update — modifies task fields",
+       "status" : "Success",
+       "durationMillis" : "32",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "update — modifies task fields"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/update — returns TaskNotFound for missing ID",
+       "status" : "Success",
+       "durationMillis" : "39",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "update — returns TaskNotFound for missing ID"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/delete — removes task",
+       "status" : "Success",
+       "durationMillis" : "46",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "delete — removes task"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/list — returns all tasks and filters by status",
+       "status" : "Success",
+       "durationMillis" : "60",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "list — returns all tasks and filters by status"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/delete — returns TaskNotFound for missing ID",
+       "status" : "Success",
+       "durationMillis" : "37",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "delete — returns TaskNotFound for missing ID"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/deleteCompletedBefore — cleans up old completed tasks",
+       "status" : "Success",
+       "durationMillis" : "33",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "deleteCompletedBefore — cleans up old completed tasks"]
+    },
+    {
+       "name" : "taskmanager.service.TaskServiceSpec/TaskService/deleteCompletedBefore — does NOT delete non-completed tasks",
+       "status" : "Success",
+       "durationMillis" : "26",
+       "annotations" : "",
+       "fullyQualifiedClassName" : "taskmanager.service.TaskServiceSpec",
+       "labels" : ["TaskService", "deleteCompletedBefore — does NOT delete non-completed tasks"]
+    }
+
+  ]
+}

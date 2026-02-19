@@ -1,0 +1,15 @@
+[error] /home/wammero/Desktop/zio-task-manager/src/main/scala/taskmanager/api/Routes.scala:86:30: Cannot find an implicit ExecutionContext. You might add
+[error] an (implicit ec: ExecutionContext) parameter to your method.
+[error] 
+[error] The ExecutionContext is used to configure how and on which
+[error] thread pools asynchronous tasks (such as Futures) will run,
+[error] so the specific ExecutionContext that is selected is important.
+[error] 
+[error] If your application does not define an ExecutionContext elsewhere,
+[error] consider using Scala's global ExecutionContext by defining
+[error] the following:
+[error] 
+[error] implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+[error]     AkkaHttpServerInterpreter().toRoute(serverEndpoints ++ swaggerEndpoints)
+[error]                              ^
+[error] one error found
